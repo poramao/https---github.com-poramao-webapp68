@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polka Dot Pattern</title>
+  <style>
+    
+
+    
+
+    .box {
+      width: 600px;
+      height: 200px;
+      border: 2px solid #ccc;
+      display: flex;
+      overflow-y: auto;
+      background: white;
+    }
+
+    .pattern {
+      min-width: 200px;
+      background-color: #d3d3d3;
+      background-image: 
+        radial-gradient(circle, black 10%, transparent 11%),
+        radial-gradient(circle, red 10%, transparent 11%);
+      background-size: 40px 40px;
+      background-position: 0 0, 20px 20px;
+    }
+
+    
+  </style>
+</head>
+<body>
+  
+  <div class="box">
+    <div class="pattern"></div>
+    
+  </div>
+</body>
+</html>

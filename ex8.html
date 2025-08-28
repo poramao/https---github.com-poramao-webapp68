@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.hover{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(216, 87, 216);
+    text-align: center;
+    }
+.popup{
+    color: white;
+    text-align: center;
+    padding-left: 150px;
+}
+.hover:hover .popup{
+    color: black;
+}
+.flex{
+    display: flex;
+}
+</style>
+<body>
+    <div class="flex">
+        <div class="hover">
+            <div class="popup">
+                This is the popup message!
+            </div>
+        </div>
+     </div>
+</body>
+</html>
